@@ -30,7 +30,7 @@ class FactorialTest {
   @DisplayName("1️⃣❗ = 1️⃣")
   void factorialOfOneIsOne() {
     int obtainedValue = factorial.factorial(1) ;
-    int expectedValue = -1 ;
+    int expectedValue = 1 ;
 
     assertEquals(expectedValue, obtainedValue) ;
   }
